@@ -21,7 +21,7 @@
 
 
 ## Introduction
-This pipeline generates pre-assembly QC plots of a Long Read Dataset. A large percentage of this pipeline was adapted from the [CGPS Nextflow Assembly Pipeline](https://gitlab.com/cgps/ghru/pipelines/dsl2/pipelines/assembly/-/tree/master/) and the fastqc module from the [NF Core Github page](https://github.com/nf-core/modules/blob/master/modules/nf-core/fastqc/main.nf).  
+This pipeline generates pre-assembly QC plots. A large percentage of this pipeline was adapted from the [CGPS Nextflow Assembly Pipeline](https://gitlab.com/cgps/ghru/pipelines/dsl2/pipelines/assembly/-/tree/master/) and the fastqc module from the [NF Core Github page](https://github.com/nf-core/modules/blob/master/modules/nf-core/fastqc/main.nf). Fastqc may not be suitable for metagenomic reads derived from the ONT sequencing platform. 
 
 
 ## Sample command
